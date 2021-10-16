@@ -7,7 +7,7 @@ FROM Products p
 INNER JOIN Categories c
 ON p.CategoryID = c.CategoryID;
 
---crear una vista que muestre el nombre del producto, categoria y proveedor 
+--crear una vista llamada listadoProductos que muestre el nombre del producto, categoria y proveedor 
 --ordemados por el nombre de la categoria 
 
 CREATE VIEW listadoProductos
